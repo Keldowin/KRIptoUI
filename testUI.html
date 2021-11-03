@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Подключение CSS кода-->
+        <link href="KRIUI.css" rel="stylesheet" type="text/css">
+        <link href="https://multiplace.fun/html/KRIUI.css" rel="stylesheet" type="text/css">
+        <link href="https://multiplace.fun/html/img/KRIpto_black_logo.webp" rel="icon" type="image">
+        <title>KRIpto UI TEST 1.2</title>
+        <style>
+          .bth button{
+            margin-left: 5px;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <img width="100px" height="100px" src="https://multiplace.fun/html/img/KRIpto_green_logo.webp" alt="KRIpto UI Keldowin!" class="ui_header_logo_img">
+            <h3 href="https://vk.com/kriptooff" class="ui_header_logo_text">KRIpto UI.TEST 1.3</h3>
+            <a href="ui.html" class="color-red"><- обратно</a>
+            <br><br>
+            <h6><a href="testUI_Kits.html">UI Kits</a></h6>
+            <h1>H1 Текст</h1>
+            <h2>H2 Текст</h2>
+            <h3>H3 Текст</h3>
+            <h4>H4 Текст</h4>
+            <h5>H5 Текст</h5>
+            <h6>H6 Текст</h6>
+            <p>P Текст</p>
+            <br><br>
+            <h1 class="color-gray">Class="color-gray"</h1>
+            <h1 class="color-green">Class="color-green"</h1>
+            <h1 class="color-blue">Class="color-blue"</h1>
+            <h1 class="color-red">Class="color-red"</h1>
+            <h1 class="color-yellow">Class="color-yellow"</h1>
+            <h1 class="color-orange">Class="color-orange"</h1>
+            <h1 class="color-Exodus">Class="color-Exodus"</h1>
+            <h1 class="color-Dark">Class="color-Dark"</h1>
+            <h1 class="color-Dark2">Class="color-Dark2"</h1>
+            <h1 class="color-silver">Class="color-silver"</h1>
+            <h1 class="c-bl">Class="c-bl"</h1>
+            <h1 class="c-r">Class="c-r"</h1>
+            <h1>Без Class</h1>
+            <h3>(Добавьте <span class="color-red">b-</span> в начало и будет окрашиватся фон! b-color-black)</h3>
+            <h3>(Чтобы облегчить color-(цвет) просто напишите c- и начальную букву доступного цвета, пример: с-g зелёный цвет, c-r красный цвет, внимание для синего цвета действует свойство c-bl, так же и работает с background) </h3>
+            <br><br>
+
+            <h2>Всякие кнопочки, топопчки, ввод URL ❤</h2>
+            <br><br><br><br>
+            <div class="bth">
+              <button>Кнопка обычная</button><button class="bdark">Кнопка чёрная</button><button class="bgreen">Кнопка зелёная</button><button class="bred">Кнопка красная</button><button class="bsilver">Кнопка серая</button>
+            </div>
+            <p>button без класса (обычная кнопка)</p>
+            <br>
+            <p>bdark - чёрная кнопка</p>
+            <br>
+            <p>bgreen - зелёная кнопка</p>
+            <br>
+            <p>bred - красная кнопка</p>
+            <br>
+            <p>bsilver - серая кнопка</p>
+            <br>
+            <br><br>
+            <a href="#">Ссылка</a>
+            <br><br>
+            <input type="text" value="input"><button>Кнопка</button>
+            <br><br><br>
+            <textarea name="" id="" cols="30" rows="10">textarea</textarea>
+            <br><br>
+
+            <h2>Input type="radio"</h2>
+            <br><br>
+            <div class="radioblock">
+                <div class="radio">Красивый(ая)</div>
+                <div class="radio">Умный(ая)</div>
+                <div class="radio">Коммуникабульный(ая)</div>
+                <div class="radio">Скромный(ая)</div>
+                <div class="clear"></div>
+
+                <input type="hidden"/>
+            </div>
+            <br><br>
+            <h4>Код примера</h4>
+            <div class="ui_help">
+                <pre class="ui_code_set"><code id="Code3">
+        &lt;div class="radioblock"&gt;
+        &lt;div class="radio"&gt;Красивый(ая)&lt;/div&gt;
+        &lt;div class="radio"&gt;Умный(ая)&lt;/div&gt;
+        &lt;div class="radio"&gt;Коммуникабульный(ая)&lt;/div&gt;
+        &lt;div class="radio"&gt;Скромный(ая)&lt;/div&gt;
+        &lt;div class="clear"&gt;&lt;/div&gt;
+    
+        &lt;input type="hidden" /&gt;
+    &lt;/div&gt;
+    </code></pre>
+            </div>
+            <br>
+            <div class="ui_text_ui_code">
+                <button id="Bth_to_copy" onclick="copytext('#Code3')">Скопировать</button>
+            </div>
+
+            <br><br><br><br>
+            <h2>Input type="cheakbox"</h2>
+            <br><br>
+            <div class="checkboxes">
+                <div class="check">
+                    KRIpto
+                    <input type="checkbox" value="jQuery"/>
+                </div>
+                <div class="check">
+                    MultiPlace
+                    <input type="checkbox" value="HTML"/>
+                </div>
+                <div class="check">
+                    R
+                    <input type="checkbox" value="CSS"/>
+                </div>
+                <div class="check">
+                    PHP
+                    <input type="checkbox" value="PHP"/>
+                </div>
+                <div class="check">
+                    MySql
+                    <input type="checkbox" value="MySql"/>
+                </div>
+            </div>
+            <br><br>
+            <h4>Код примера</h4>
+            <div class="ui_help">
+                <pre class="ui_code_set"><code id="Code2">
+        &lt;div class="checkboxes"&gt;
+        &lt;div class="check"&gt;
+            KRIpto
+            &lt;input type="checkbox" value="jQuery" /&gt;
+        &lt;/div&gt;
+        &lt;div class="check"&gt;
+            MultiPlace
+            &lt;input type="checkbox" value="HTML" /&gt;
+        &lt;/div&gt;
+        &lt;div class="check"&gt;
+            R
+            &lt;input type="checkbox" value="CSS" /&gt;
+        &lt;/div&gt;
+        &lt;div class="check"&gt;
+            PHP
+            &lt;input type="checkbox" value="PHP" /&gt;
+        &lt;/div&gt;
+        &lt;div class="check"&gt;
+            MySql
+            &lt;input type="checkbox" value="MySql" /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    </code></pre>
+            </div>
+            <br>
+            <div class="ui_text_ui_code">
+                <button id="Bth_to_copy" onclick="copytext('#Code2')">Скопировать</button>
+            </div>
+
+            <br><br><br><br>
+            <h2>Select</h2>
+            <br><br>
+            <div class="select" style="text-align: center;">
+                <a href="javascript:void(0);" class="slct">Выберете что хотите продать</a>
+                <ul class="drop">
+                    <li>
+                        <a href="">Крым</a>
+                    </li>
+                    <li>
+                        <a href="">МП</a>
+                    </li>
+                    <li>
+                        <a href="">123</a>
+                    </li>
+                    <li>
+                        <a href="">Тестик_Тестов</a>
+                    </li>
+                </ul>
+                <input type="hidden" id="select"/>
+            </div>
+            <br><br>
+            <h4>Код примера</h4>
+            <div class="ui_help">
+                <pre class="ui_code_set"><code id="Code1">&lt;div class="select" style="text-align: center;"&gt;
+        &lt;a href="javascript:void(0);" class="slct"&gt;Выберете что хотите продать&lt;/a&gt;
+        &lt;ul class="drop"&gt;
+            &lt;li&gt;&lt;a href=""&gt;Крым&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=""&gt;Мп&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=""&gt;123&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=""&gt;Тестик_Тестов&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;input type="hidden" id="select" /&gt;
+    &lt;/div&gt;
+</code></pre>
+            </div>
+            <br>
+            <div class="ui_text_ui_code">
+                <button id="Bth_to_copy" onclick="copytext('#Code1')">Скопировать</button>
+            </div>
+
+            <br><br><br><br>
+            <h2>Input type="file"</h2>
+            <br><br>
+            <div class="fileload">
+                <h2>Загрузка файла:</h2>
+                <div class="file-load-block">
+                    <input type="file" value="Загрузите файл 💾" id="file"/>
+                    <div class="fileLoad">
+                        <input type="text" value="Загрузить файл 💾"/>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <h4>Код примера</h4>
+            <div class="ui_help">
+                <pre class="ui_code_set"><code id="Code4">
+        &lt;div class="fileload"&gt;
+        &lt;h2&gt;Загрузка файла:&lt;/h2&gt;
+        &lt;div class="file-load-block"&gt;
+            &lt;input type="file" value="Загрузите файл 💾" id="file" /&gt;
+            &lt;div class="fileLoad"&gt;
+                &lt;input type="text" value="Загрузить файл 💾" /&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    </code></pre>
+            </div>
+            <br>
+            <div class="ui_text_ui_code">
+                <button id="Bth_to_copy" onclick="copytext('#Code4')">Скопировать</button>
+            </div>
+
+            <br><br><br><br>
+            <h2>Input type="reset"</h2>
+            <br><br>
+            <div class="reset-form">
+                <h4>Сбрасываем KRIpto ID</h4>
+                <button>Сброс</button>
+            </div>
+            <br><br>
+            <h4>Код примера</h4>
+            <div class="ui_help">
+                <pre class="ui_code_set"><code id="Code8">
+        &lt;div class="reset-form"&gt;
+        &lt;h4&gt;Сбрасываем KRIpto ID&lt;/h4&gt;
+        &lt;button&gt;Сброс&lt;/button&gt;
+    &lt;/div&gt;
+    </code></pre>
+            </div>
+            <br>
+            <div class="ui_text_ui_code">
+                <button id="Bth_to_copy" onclick="copytext('#Code8')">Скопировать</button>
+            </div>
+
+            <br><br><br><br>
+            <h2>Input type="submit"</h2>
+            <br><br>
+            <input type="submit" class="submit" value="Отправить товар"/>
+            <br><br>
+            <h4>Код примера</h4>
+            <div class="ui_help">
+                <pre class="ui_code_set"><code id="Code10">
+        &lt;input type="submit" class="submit" value="Отправить товар" /&gt;
+    </code></pre>
+            </div>
+            <br>
+            <div class="ui_text_ui_code">
+                <button id="Bth_to_copy" onclick="copytext('#Code10')">Скопировать</button>
+            </div>
+            <br><br><br><br>
+            <p>Иконки KRIpto/использование иконок с веб-сервера</p>
+            <br>
+            <p>https://multiplace.fun/html/img/KRIpto_(цвет)_logo.webp</p>
+            <br><br>
+            <img width="100px" height="100px" src="https://multiplace.fun/html/img/KRIpto_green_logo.webp" alt="">
+            <h5>https://multiplace.fun/html/img/KRIpto_green_logo.webp
+                <br>
+                Большой размер до 4172 × 4172 px
+            </h5>
+            <br>
+            <img width="100px" height="100px" src="https://multiplace.fun/html/img/KRIpto_white_logo.webp" alt="">
+            <h5>https://multiplace.fun/html/img/KRIpto_white_logo.webp
+                <br>
+                Большой размер до 4172 × 4172 px
+            </h5>
+            <br>
+            <img width="100px" height="100px" src="https://multiplace.fun/html/img/KRIpto_black_logo.webp" alt="">
+            <h5>https://multiplace.fun/html/img/KRIpto_black_logo.webp
+                <br>
+                Большой размер до 4172 × 4172 px
+            </h5>  
+            <br><br><br><br>
+            <h1>Примеры элементов сайта</h1>
+            <br><br><br><br>
+            <h2>Карточки новостей</h2>
+            <div class="container centerdiv">
+                <div class="card">
+                  <div class="card-header">
+                    <img src="https://multiplace.fun/html/img/KRIpto_black_logo.webp" alt="rover" />
+                  </div>
+                  <div class="card-body">
+                    <span class="tag b-color-Dark2">KRIptoBot</span>
+                    <h4>
+                      Хорош ли KRIptoBot? Узнаем!
+                    </h4>
+                    <p>
+                      Спросим у Келдовина об успехах бота!
+                    </p>
+                    <a href="#">Подробнее</a>
+                    <div class="user">
+                      <img src="https://multiplace.fun/html/img/KRIpto_white_logo.webp" alt="user" />
+                      <div class="user-info">
+                        <h5>KRIptoNews</h5>
+                        <small>time</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <img src="https://multiplace.fun/html/img/KRIpto_green_logo.webp" alt="ballons" />
+                  </div>
+                  <div class="card-body">
+                    <span class="tag b-color-blue">MultiPlace</span>
+                    <h4>
+                      Альфа Тест? 
+                    </h4>
+                    <p>
+                      Узнаем в этой новости!
+                    </p>
+                    <div class="user">
+                      <img src="https://multiplace.fun/html/img/KRIpto_black_logo.webp" alt="user" />
+                      <div class="user-info">
+                        <h5>KRIpto News</h5>
+                        <small>time</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <img src="https://multiplace.fun/html/img/KRIpto_white_logo.webp" alt="city" />
+                  </div>
+                  <div class="card-body">
+                    <span class="tag b-color-red">KRIpto UI</span>
+                    <h4>
+                      Всё круто в ui?!?!
+                    </h4>
+                    <p>
+                      Узнаем!
+                    </p>
+                    <div class="user">
+                      <img src="https://multiplace.fun/html/KRIpto_green_logo_64.png" alt="user" />
+                      <div class="user-info">
+                        <h5>Keldowin</h5>
+                        <small>time</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="ui_help ds-n">
+                <pre class="ui_code_set"><code id="Code_Ele">
+                    &lt;div class="container centerdiv"&gt;
+                    &lt;div class="card"&gt;
+                      &lt;div class="card-header"&gt;
+                        &lt;img src="https://multiplace.fun/html/KRIpto_black_logo.png" alt="rover" /&gt;
+                      &lt;/div&gt;
+                      &lt;div class="card-body"&gt;
+                        &lt;span class="tag b-color-green"&gt;KRIptoBot&lt;/span&gt;
+                        &lt;h4&gt;
+                          Хорош ли KRIptoBot? Узнаем!
+                        &lt;/h4&gt;
+                        &lt;p&gt;
+                          Спросим у Келдовина об успехах бота!
+                        &lt;/p&gt;
+                        &lt;a href="#"&gt;Подробнее&lt;/a&gt;
+                        &lt;div class="user"&gt;
+                          &lt;img src="https://multiplace.fun/html/KRIpto_white_logo_64.png" alt="user" /&gt;
+                          &lt;div class="user-info"&gt;
+                            &lt;h5&gt;KRIptoNews&lt;/h5&gt;
+                            &lt;small&gt;time&lt;/small&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="card"&gt;
+                      &lt;div class="card-header"&gt;
+                        &lt;img src="https://multiplace.fun/html/KRIpto_green_logo.png" alt="ballons" /&gt;
+                      &lt;/div&gt;
+                      &lt;div class="card-body"&gt;
+                        &lt;span class="tag tag-purple"&gt;MultiPlace&lt;/span&gt;
+                        &lt;h4&gt;
+                          Альфа Тест? 
+                        &lt;/h4&gt;
+                        &lt;p&gt;
+                          Узнаем в этой новости!
+                        &lt;/p&gt;
+                        &lt;div class="user"&gt;
+                          &lt;img src="https://multiplace.fun/html/KRIpto_black_logo_64.png" alt="user" /&gt;
+                          &lt;div class="user-info"&gt;
+                            &lt;h5&gt;KRIptoNews&lt;/h5&gt;
+                            &lt;small&gt;time&lt;/small&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="card"&gt;
+                      &lt;div class="card-header"&gt;
+                        &lt;img src="https://multiplace.fun/html/KRIpto_white_logo.png" alt="city" /&gt;
+                      &lt;/div&gt;
+                      &lt;div class="card-body"&gt;
+                        &lt;span class="tag tag-pink"&gt;KRIptoUI&lt;/span&gt;
+                        &lt;h4&gt;
+                          Всё круто в ui?!?!
+                        &lt;/h4&gt;
+                        &lt;p&gt;
+                          Узнаем!
+                        &lt;/p&gt;
+                        &lt;div class="user"&gt;
+                          &lt;img src="https://multiplace.fun/html/KRIpto_green_logo_64.png" alt="user" /&gt;
+                          &lt;div class="user-info"&gt;
+                            &lt;h5&gt;Keldowin&lt;/h5&gt;
+                            &lt;small&gt;time&lt;/small&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                </code></pre>
+            </div>
+            <br>
+            <div class="ui_text_ui_code">
+                <button id="Bth_to_copy" onclick="copytext('#Code_Ele')">Скопировать код</button>
+            </div>
+            <br><br><br><br>
+            <h2>Прокуртка</h2>
+            <div class="section-x color-white">
+              <div class="section__item-x b-color-green"><a href="#" class="color-white">KRIpto</a></div>
+              <div class="section__item-x b-color-Dark2"><a href="#" class="color-white">KRIpto UI</a></div>
+              <div class="section__item-x b-color-red"><a href="#" class="color-white">KRIpto Bot 🤓</a></div>
+              <div class="section__item-x b-color-blue"><a href="#" class="color-white">KRIpto Inc 💵</a></div>
+              <div class="section__item-x b-color-Pink"><a href="#" class="color-white">KRIpto ОнлайнТГ</a></div>
+              <div class="section__item-x b-color-Exodus"><a href="#" class="color-white">KRIpto Disk</a></div>
+            </div>
+            <br><br>
+            <div class="ui_text_ui_code">
+              <button id="Bth_to_copy" class="bred" onclick="copytext('#Code_Ele12')">Скопировать код</button>
+          </div>
+          <br><br>
+          <div class="ui_help ds-n">
+            <pre class="ui_code_set"><code id="#Code_Ele12">
+              &lt;div class="section-x color-white"&gt;
+              &lt;div class="section__item-x b-color-green"&gt;&lt;a href="#" class="color-white"&gt;KRIpto&lt;/a&gt;&lt;/div&gt;
+              &lt;div class="section__item-x b-color-Dark2"&gt;&lt;a href="#" class="color-white"&gt;KRIpto UI&lt;/a&gt;&lt;/div&gt;
+              &lt;div class="section__item-x b-color-red"&gt;&lt;a href="#" class="color-white"&gt;KRIpto Bot 🤓&lt;/a&gt;&lt;/div&gt;
+              &lt;div class="section__item-x b-color-blue"&gt;&lt;a href="#" class="color-white"&gt;KRIpto Inc 💵&lt;/a&gt;&lt;/div&gt;
+              &lt;div class="section__item-x b-color-Pink"&gt;&lt;a href="#" class="color-white"&gt;KRIpto ОнлайнТГ&lt;/a&gt;&lt;/div&gt;
+              &lt;div class="section__item-x b-color-Exodus"&gt;&lt;a href="#" class="color-white"&gt;KRIpto Disk&lt;/a&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            </code></pre>
+        </div>
+            <h2>Прокуртка2</h2>
+            <br><br>
+            <div class="wrapper">
+              <section class="section2">
+                <h2 class="color-green font-bold">
+                  Популярные фото KRIpto Disk
+                </h2>
+                <div class="images-list">
+                  <img src="https://multiplace.fun/html/img/KRIpto_black_logo.webp" class="img" alt="">
+                  <img src="https://multiplace.fun/html/img/KRIpto_white_logo.webp" class="img" alt="">
+                  <img src="https://multiplace.fun/html/img/KRIpto_green_logo.webp" class="img" alt="">
+                  <img src="https://multiplace.fun/html/img/KRIpto_yellow_logo.webp" class="img" alt="">
+                  <img src="https://multiplace.fun/html/img/KRIpto_red_logo.webp" class="img" alt="">
+                  <img src="https://multiplace.fun/html/img/KRIpto_orange_logo.webp" class="img" alt="">
+                  <img src="https://multiplace.fun/html/img/KRIpto_blue_logo.webp" class="img" alt="">
+                  <img src="https://multiplace.fun/html/img/KRIpto_pink_logo.webp" class="img" alt="">
+                  <img src="https://multiplace.fun/html/img/KRIpto_exodus_logo.webp" class="img" alt="">
+                  <img src="https://multiplace.fun/html/img/KRIpto_rgb_logo.webp" class="img" alt="">
+                </div>
+              </section>
+            </div>
+            <br><br>
+            <div class="ui_text_ui_code">
+              <button id="Bth_to_copy" class="bred" onclick="copytext('#Code_Ele123')">Скопировать код</button>
+          </div>
+          <div class="ui_help ds-n">
+            <pre class="ui_code_set"><code id="#Code_Ele123">
+              &lt;div class="wrapper"&gt;
+              &lt;section class="section2"&gt;
+                &lt;h2 class="color-green font-bold"&gt;
+                  Популярные фото KRIpto Disk
+                &lt;/h2&gt;
+                &lt;div class="images-list"&gt;
+                  &lt;img src="https://multiplace.fun/html/KRIpto_black_logo.png" class="img" alt=""&gt;
+                  &lt;img src="https://multiplace.fun/html/KRIpto_black_logo.png" class="img" alt=""&gt;
+                  &lt;img src="https://multiplace.fun/html/KRIpto_white_logo.png" class="img" alt=""&gt;
+                  &lt;img src="https://multiplace.fun/html/KRIpto_green_logo.png" class="img" alt=""&gt;
+                  &lt;img src="https://multiplace.fun/html/KRIpto_black_logo.png" class="img" alt=""&gt;
+                  &lt;img src="https://multiplace.fun/html/KRIpto_green_logo.png" class="img" alt=""&gt;
+                  &lt;img src="https://multiplace.fun/html/KRIpto_black_logo.png" class="img" alt=""&gt;
+                  &lt;img src="https://multiplace.fun/html/KRIpto_green_logo.png" class="img" alt=""&gt;
+                  &lt;img src="https://multiplace.fun/html/KRIpto_black_logo.png" class="img" alt=""&gt;
+                  &lt;img src="https://multiplace.fun/html/KRIpto_white_logo.png" class="img" alt=""&gt;
+                &lt;/div&gt;
+              &lt;/section&gt;
+            &lt;/div&gt;
+            </code></pre>
+        </div>
+          <br><br>
+            <br><br><br><br>
+            <div class="cards-list">
+  
+              <div class="cards 1">
+                <div class="card_image"> <img src="https://multiplace.fun/html/KRIpto_black_logo.png" /> </div>
+                <div class="card_title color-white">
+                  <p>KRIpto UI</p>
+                </div>
+              </div>
+              
+                <div class="cards 2">
+                <div class="card_image">
+                  <img src="https://multiplace.fun/html/KRIpto_white_logo.png" />
+                  </div>
+                <div class="card_title color-black">
+                  <p>ОнлайнТГ</p>
+                </div>
+              </div>
+              
+              <div class="cards 3">
+                <div class="card_image">
+                  <img src="https://multiplace.fun/html/KRIpto_green_logo.png" />
+                </div>
+                <div class="card_title color-white">
+                  <p>MultiPlace</p>
+                </div>
+              </div>
+              
+              </div>
+              <br><br><br><br>
+              <h2>Поле с текстом</h2>
+              <br><br>
+              <div class="wrapper-text">
+                <h2>Section title</h2>
+              
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quo similique illo, illum nam sapiente culpa nihil deserunt omnis esse necessitatibus rerum exercitationem neque voluptas corporis vitae hic libero reprehenderit!</p>
+              
+                <h2>Another title</h2>
+              
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, enim ipsam, exercitationem fuga cum asperiores incidunt voluptatum rerum veritatis quidem necessitatibus doloremque illo impedit odio? Quae numquam maiores quas obcaecati.</p>
+              
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, enim ipsam, exercitationem fuga cum asperiores incidunt voluptatum rerum veritatis quidem necessitatibus doloremque illo impedit odio? Quae numquam maiores quas obcaecati.</p>
+              
+                <h2>Another title</h2>
+              
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, enim ipsam, exercitationem fuga cum asperiores incidunt voluptatum rerum veritatis quidem necessitatibus doloremque illo impedit odio? Quae numquam maiores quas obcaecati.</p>
+              
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, enim ipsam, exercitationem fuga cum asperiores incidunt voluptatum rerum veritatis quidem necessitatibus doloremque illo impedit odio? Quae numquam maiores quas obcaecati.</p>
+              
+                <h2>Another title</h2>
+              
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, enim ipsam, exercitationem fuga cum asperiores incidunt voluptatum rerum veritatis quidem necessitatibus doloremque illo impedit odio? Quae numquam maiores quas obcaecati.</p>
+              
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, enim ipsam, exercitationem fuga cum asperiores incidunt voluptatum rerum veritatis quidem necessitatibus doloremque illo impedit odio? Quae numquam maiores quas obcaecati.</p>
+              </div>
+              <br><br><br>
+              <h2>Полезные классы</h2>
+              <ul>
+                <li>center - делает текст по центру свойством  text-align:center; </li>
+                <br>
+                <li>centerdiv - делает объект по центру свойством margin: 0 auto;</li>
+                <br>
+                <li>on/off - делает подчёркнутым какой либо объект (on), либо убирает это свойство (off)</li>
+                <br>
+                <li>ds-n - убирает предмет свойством display: none;</li>
+                <br>
+                <li>f-bold/f-thin - первое делает текст жирным, второе тонким</li>
+                <br>
+                <li>left/right - делает текст либо слева либо справа</li>
+                <br>
+                <li>pt30 - отспут на 30 пикселей</li>
+                <br>
+                <li>ds-b - добовляет для элемента свойство display: block;</li>
+              </ul>
+              <br><br>
+              <a href="testUI.zip" class="color-red">Скачать всю страницу</a>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <!--Подключение Jquery библеоткеки (без этоого ничего не будет работать!)-->
+            <script src="KRIUI.js"></script>
+            <!--Подключение JavaScript для работы дизайна-->
+        </body>
+    </body>
+</html>
